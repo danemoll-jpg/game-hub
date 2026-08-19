@@ -49,4 +49,13 @@ export const GAMES = [
     tags: ['up to 4 players', 'dice'],
     accent: '#5f9be0',
   },
+  {
+    id: 'spades',
+    name: 'Spades',
+    tagline: 'Bid your tricks, then go make it — spades are always trump, first to 500 wins.',
+    icon: '♠️',
+    url: 'https://spadescards.netlify.app/',
+    tags: ['2–4 players', 'cards', 'online'],
+    accent: '#8f6fe0',
+  },
 ];
