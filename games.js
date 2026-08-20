@@ -58,4 +58,13 @@ export const GAMES = [
     tags: ['2–4 players', 'cards', 'online'],
     accent: '#8f6fe0',
   },
+  {
+    id: 'worldly',
+    name: 'Worldly',
+    tagline: 'Pan and zoom a real world map, quiz yourself untimed, and drill whatever you keep missing.',
+    icon: '🌍',
+    url: 'https://worldlyquiz.netlify.app/',
+    tags: ['solo', 'geography', 'study'],
+    accent: '#45b8c4',
+  },
 ];
