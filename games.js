@@ -67,4 +67,13 @@ export const GAMES = [
     tags: ['solo', 'geography', 'study'],
     accent: '#45b8c4',
   },
+  {
+    id: 'outworldly',
+    name: 'Outworldly',
+    tagline: 'Pan and zoom a real star map with all 88 constellations, learn the sky, then quiz yourself untimed.',
+    icon: '✨',
+    url: 'https://outworldly.netlify.app/',
+    tags: ['solo', 'astronomy', 'study'],
+    accent: '#e8c873',
+  },
 ];
