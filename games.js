@@ -76,4 +76,13 @@ export const GAMES = [
     tags: ['solo', 'astronomy', 'study'],
     accent: '#e8c873',
   },
+  {
+    id: 'innerworldly',
+    name: 'Innerworldly',
+    tagline: "Pan and zoom a real skeleton photo, find each bone you're asked about, then quiz yourself untimed.",
+    icon: '🫀',
+    url: 'https://innerworldly.netlify.app/',
+    tags: ['solo', 'anatomy', 'study'],
+    accent: '#7ec8e3',
+  },
 ];
