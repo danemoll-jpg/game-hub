@@ -61,7 +61,7 @@ export const GAMES = [
   {
     id: 'worldly',
     name: 'Worldly',
-    tagline: 'Pan and zoom a real world map, quiz yourself untimed, and drill whatever you keep missing.',
+    tagline: "Pan and zoom a real world map and quiz yourself on countries, capitals, flags, US states, and the world's seas and oceans — all untimed.",
     icon: '🌍',
     url: 'https://worldlyquiz.netlify.app/',
     tags: ['solo', 'geography', 'study'],
@@ -79,7 +79,7 @@ export const GAMES = [
   {
     id: 'innerworldly',
     name: 'Innerworldly',
-    tagline: "Pan and zoom a real skeleton photo, find each bone you're asked about, then quiz yourself untimed.",
+    tagline: "Pan and zoom real photos of the body's systems — skeleton, organs, muscles, and more — find each part you're asked about, then quiz yourself untimed.",
     icon: '🫀',
     url: 'https://innerworldly.netlify.app/',
     tags: ['solo', 'anatomy', 'study'],
@@ -88,7 +88,7 @@ export const GAMES = [
   {
     id: 'helioworldly',
     name: 'Helioworldly',
-    tagline: "Pan and zoom a real NASA/JPL photo of the solar system, find each planet you're asked about, then quiz yourself untimed.",
+    tagline: "Pan and zoom real photos of the solar system — find planets, moons, and other celestial bodies you're asked about, then quiz yourself untimed.",
     icon: '☀️',
     url: 'https://helioworldly.netlify.app/',
     tags: ['solo', 'solar system', 'study'],
