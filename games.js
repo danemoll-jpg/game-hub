@@ -85,4 +85,13 @@ export const GAMES = [
     tags: ['solo', 'anatomy', 'study'],
     accent: '#7ec8e3',
   },
+  {
+    id: 'helioworldly',
+    name: 'Helioworldly',
+    tagline: "Pan and zoom a real NASA/JPL photo of the solar system, find each planet you're asked about, then quiz yourself untimed.",
+    icon: '☀️',
+    url: 'https://heliowordly.netlify.app/',
+    tags: ['solo', 'solar system', 'study'],
+    accent: '#f2a541',
+  },
 ];
