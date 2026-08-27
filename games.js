@@ -94,4 +94,13 @@ export const GAMES = [
     tags: ['solo', 'solar system', 'study'],
     accent: '#f2a541',
   },
+  {
+    id: 'sole-match',
+    name: 'Sole Match',
+    tagline: 'Catch falling shoes and ship matching pairs before a box fills up wrong — race a friend online for the same run of shoes.',
+    icon: '👟',
+    url: 'https://soledout.netlify.app/',
+    tags: ['solo or 2 players', 'arcade', 'online'],
+    accent: '#e88fb0',
+  },
 ];
