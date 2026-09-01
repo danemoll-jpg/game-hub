@@ -103,4 +103,13 @@ export const GAMES = [
     tags: ['solo or 2 players', 'arcade', 'online'],
     accent: '#e88fb0',
   },
+  {
+    id: 'nonogram-pro',
+    name: 'Nonogram Pro',
+    tagline: "Pick a puzzle, fill it in, and ask for a hint when you're stuck — it'll explain the reasoning, not just the answer.",
+    icon: '🏁',
+    url: 'https://nonogrampro.netlify.app/',
+    tags: ['solo', 'logic puzzle', 'picture reveal'],
+    accent: '#e6b73f',
+  },
 ];
