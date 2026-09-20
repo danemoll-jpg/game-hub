@@ -9,6 +9,9 @@
 //   tags        short pills under the tagline — player count, category, etc.
 //   accent      a CSS color (hex or var) used for the card's icon glow and border-on-hover;
 //               pick something that doesn't clash with the felt-green background
+//   download    optional; true for a game that isn't playable in the browser and is just a link
+//               to a file to download. The card says "Download" instead of "Play" and opens the
+//               link in a new tab. Mention the platform (e.g. 'PC only') in `tags`.
 //
 // Order here is display order. New games are typically appended to the end.
 
@@ -111,5 +114,15 @@ export const GAMES = [
     url: 'https://nonogrampro.netlify.app/',
     tags: ['solo', 'logic puzzle', 'picture reveal'],
     accent: '#e6b73f',
+  },
+  {
+    id: 'woodstock-rush',
+    name: 'Woodstock Rush',
+    tagline: 'Back roads. Big jumps. Bad decisions.',
+    icon: '🏎️',
+    url: 'https://drive.google.com/file/d/1V9ZDXrjXKHPFYGnTVTEUjjKdTvOpRoIs/view?usp=drive_link',
+    tags: ['PC only', 'download', 'in development'],
+    accent: '#ee7a3a',
+    download: true,
   },
 ];

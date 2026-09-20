@@ -21,6 +21,10 @@ Open [`games.js`](./games.js) and add one object to the `GAMES` array:
 },
 ```
 
+For a game that isn't playable in the browser (e.g. a PC build hosted on Google Drive), point `url`
+at the download link, add `download: true`, and note the platform in `tags` (`'PC only'`). The card
+then says "Download" and opens the link in a new tab.
+
 Commit and push — Netlify redeploys automatically (same continuous-deployment setup as every
 other game in the series) and the new card shows up. Nothing else in the site needs to change.
 
