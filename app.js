@@ -13,7 +13,9 @@ function cardFor(game) {
   a.setAttribute('aria-label', `${verb} ${game.name}`);
 
   a.innerHTML = `
-    <div class="card__icon" aria-hidden="true">${game.icon}</div>
+    <div class="card__icon" aria-hidden="true">${
+      game.image ? `<img class="card__image" src="${game.image}" alt="" width="40" height="40">` : game.icon
+    }</div>
     <h2 class="card__name">${game.name}</h2>
     <p class="card__tagline">${game.tagline}</p>
     <div class="card__tags">

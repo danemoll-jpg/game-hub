@@ -5,6 +5,8 @@
 //   name        display title
 //   tagline     one sentence describing how it plays
 //   icon        a single emoji, shown large on the card
+//   image       optional: a picture shown instead of the emoji (a square PNG in icons/, shown
+//               at 40 px); keep `icon` too, as the fallback
 //   url         the game's live URL (its own Netlify deploy)
 //   tags        short pills under the tagline — player count, category, etc.
 //   accent      a CSS color (hex or var) used for the card's icon glow and border-on-hover;
@@ -130,6 +132,8 @@ export const GAMES = [
     name: 'Epoch: From Stone to Stars',
     tagline: 'Lead a people from the first village to the stars: build cities, trade and fight with up to five rivals, and win by conquest, culture, wealth, or a flight to the stars.',
     icon: '🏛️',
+    // The game's own app icon (a copy of epoch/public/icons/icon-192.png); the emoji is the fallback.
+    image: 'icons/epoch.png',
     url: 'https://epoch-fsts.netlify.app/',
     tags: ['solo', 'strategy', '2–3 hours'],
     accent: '#4a7fd6',

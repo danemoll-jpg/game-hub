@@ -85,6 +85,13 @@ body {
   filter: drop-shadow(0 0 0.6rem color-mix(in srgb, var(--accent) 55%, transparent));
 }
 
+.card__image {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.55rem;
+}
+
 .card__name {
   margin: 0.1rem 0 0;
   font-size: 1.25rem;
