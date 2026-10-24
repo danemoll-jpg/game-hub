@@ -138,4 +138,15 @@ export const GAMES = [
     tags: ['solo', 'strategy', '2–3 hours'],
     accent: '#4a7fd6',
   },
+  {
+    id: 'adventure-3d',
+    name: 'Adventure 3-D',
+    tagline: 'A modern adaptation of the Atari 2600 classic — explore a kingdom, dodge dragons, and recover the stolen chalice.',
+    icon: '🦜',
+    image: 'icons/adventure-3d.png',
+    url: 'https://drive.google.com/file/d/18pQXU9iIUiJDNEjyTEPhIYKrsAgatCnV/view?usp=sharing',
+    tags: ['PC only', 'remake', 'download'],
+    accent: '#5fa87a',
+    download: true,
+  },
 ];
