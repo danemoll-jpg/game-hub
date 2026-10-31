@@ -161,4 +161,15 @@ export const GAMES = [
     accent: '#5fa87a',
     download: true,
   },
+  {
+    id: 'gridiron-glory',
+    name: 'Gridiron Glory',
+    tagline: 'Football Arcaade fun',
+    icon: '🏎️',
+    image: 'icons/GridironGlory.png',
+    url: 'https://github.com/danemoll-jpg/gridiron-glory-releases/releases/download/build-703/GridironGlory-0.7.3.zip',
+    tags: ['PC only', 'Steam Deck', 'download'],
+    accent: '#ee7a3a',
+    download: true,
+  }
 ];
