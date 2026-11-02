@@ -182,4 +182,14 @@ export const GAMES = [
     accent: '#5fb87a',
     download: true,
   },
+  {
+    id: 'hostile-horizon',
+    name: 'Hostile Horizon',
+    tagline: 'A modern-day take on Rescue on Fractalus — fly down to a hostile alien world and rescue pilots without trusting the wrong one.',
+    icon: '🛸',
+    url: 'https://github.com/danemoll-jpg/Hostile-Horizon-releases/releases/download/starter-200/HostileHorizon-Starter.zip',
+    tags: ['PC only', 'Steam Deck', 'download'],
+    accent: '#4fd1c5',
+    download: true,
+  },
 ];
