@@ -171,5 +171,15 @@ export const GAMES = [
     tags: ['PC only', 'Steam Deck', 'download'],
     accent: '#ee7a3a',
     download: true,
-  }
+  },
+  {
+    id: 'teed-off',
+    name: "Tee'd Off",
+    tagline: 'A golf game.',
+    icon: '🏌️',
+    url: 'https://github.com/danemoll-jpg/Tee-dOff-Releases/releases/download/build-100/TeedOff-0.1.0.zip',
+    tags: ['PC only', 'Steam Deck', 'download'],
+    accent: '#5fb87a',
+    download: true,
+  },
 ];
