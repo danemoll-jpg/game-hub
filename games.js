@@ -193,6 +193,16 @@ export const GAMES = [
     download: true,
   },
   {
+    id: 'shiftstorm',
+    name: 'ShiftStorm',
+    tagline: 'Race a shape-shifting car/plane/boat/sub across wild courses — drift, dive, and fly through loops, jumps, and split-screen 2-player.',
+    icon: '🌪️',
+    url: 'https://github.com/danemoll-jpg/ShiftStorm-Releases/releases/download/build-16/ShiftStorm-0.12.0-Full.zip',
+    tags: ['PC only', 'Steam Deck', 'download'],
+    accent: '#7a8fee',
+    download: true,
+  },
+  {
     id: 'quiet-player',
     name: 'Quiet Player',
     tagline: 'A video player for your own files whose controls never cover the picture: Tab brings the bar back, and it keeps itself up to date.',
@@ -201,6 +211,16 @@ export const GAMES = [
     url: 'https://github.com/danemoll-jpg/quiet-player-releases/releases/latest',
     tags: ['PC only', 'app', 'download'],
     accent: '#6fa8dc',
+    download: true,
+  },
+  {
+    id: 'photo-organizer',
+    name: 'Photo Organizer',
+    tagline: 'Sort decades of photos and videos into year/month folders by their real dates, then browse them in a local web viewer. It keeps itself up to date.',
+    icon: '📷',
+    url: 'https://github.com/danemoll-jpg/photo-organizer-releases/releases/latest',
+    tags: ['PC only', 'app', 'download'],
+    accent: '#4fa3e0',
     download: true,
   },
   {
