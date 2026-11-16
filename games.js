@@ -203,4 +203,15 @@ export const GAMES = [
     accent: '#6fa8dc',
     download: true,
   },
+  {
+    id: 'jukebox',
+    name: 'Jukebox',
+    tagline: 'Your own music jukebox: plays the music folder on your PC, gapless, with smart playlists, an equalizer, a visualizer and listening stats, and your phone plays it or remote-controls the PC over Wi-Fi. It keeps itself up to date.',
+    icon: '🎵',
+    image: 'icons/jukebox.png',
+    url: 'https://github.com/danemoll-jpg/jukebox-releases/releases/latest',
+    tags: ['PC only', 'app', 'download'],
+    accent: '#e8b04a',
+    download: true,
+  },
 ];
