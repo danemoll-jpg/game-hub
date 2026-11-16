@@ -192,4 +192,15 @@ export const GAMES = [
     accent: '#4fd1c5',
     download: true,
   },
+  {
+    id: 'quiet-player',
+    name: 'Quiet Player',
+    tagline: 'A video player for your own files whose controls never cover the picture: Tab brings the bar back, and it keeps itself up to date.',
+    icon: '🎬',
+    image: 'icons/QuietPlayer.png',
+    url: 'https://github.com/danemoll-jpg/quiet-player-releases/releases/latest',
+    tags: ['PC only', 'app', 'download'],
+    accent: '#6fa8dc',
+    download: true,
+  },
 ];
